@@ -2,6 +2,8 @@
   margin-top: 20%;
   text-align: center;
   font-size: 35px;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-title{
@@ -14,6 +16,11 @@
 }
 
 .input-deadline{
+  margin:10px;
+  font-size: 20px;
+}
+
+.input-hours,.input-minutes,.input-seconds{
   margin:10px;
   font-size: 20px;
 }
